@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('topbar.css');
+
+:root {
+    --font: "Indie Flower";
+
+    --background-image: url("images/backgrounds/1.png");
+}
+
+body {
+    background-image: var(--background-image);
+    background-position: left center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    font-family: var(--font);
+}
+
+.div_text {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+
+    padding: 5px;
+
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.5);
+
+
+}
