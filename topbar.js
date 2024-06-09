@@ -21,7 +21,7 @@ about.appendChild(aboutImage);
 
 //projects
 const projects = document.createElement("a");
-projects.href = "#";
+projects.href = "projects.html";
 const projectsImage = document.createElement("img");
 projectsImage.src = "images/icons/projects.png";
 projectsImage.className = "icon";
