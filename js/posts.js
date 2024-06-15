@@ -27,3 +27,4 @@ var addPosts = function ()
 {
     postSummary("posts/first-post.html", "first post!!", "6/15/2024");
 }
+

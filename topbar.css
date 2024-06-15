@@ -27,11 +27,11 @@
     margin-right: auto;
     
     width: calc(50vw + 10px);
-    
 }
 
 .topbar a {
     float: right;
     padding: 5px 10px;
+    width: var(--icon-size);
     background-color: rgba(0, 0, 0, 0);
 }

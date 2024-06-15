@@ -14,7 +14,6 @@ var createTopbar = function (isblog) {
         home.href = "index.html";
         homeImage.src = "images/icons/home.png";
     }
-  
   homeImage.className = "icon";
   home.appendChild(homeImage);
 
