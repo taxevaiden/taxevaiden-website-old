@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('topbar.css');
+@import url('projects.css');
 
 :root {
     --font: "Indie Flower";
 
     --background-image: url("images/backgrounds/1.png");
+}
+
+* {
+    font-family: var(--font);
 }
 
 body {
@@ -13,7 +18,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
 
-    font-family: var(--font);
+    
 }
 
 .div_text {
