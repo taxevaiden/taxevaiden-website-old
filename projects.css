@@ -4,7 +4,7 @@
 }
 
 .project {
-    height: var(--project-height);
+    min-height: var(--project-height);
 
     margin-bottom: 10px;
 
