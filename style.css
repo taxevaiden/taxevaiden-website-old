@@ -15,7 +15,7 @@
 
 body {
     background-image: var(--background-image);
-    background-position: left center;
+    background-position: center;
     background-attachment: fixed;
     background-size: cover;
 
