@@ -143,7 +143,7 @@ body {
     margin-bottom: 10px;
 }
 
-#HCB_comment_box input.submit {
+#HCB_comment_box input.submit #hcb_submit {
     color: black;
     background-color: white;
     border-style: solid;
