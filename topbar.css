@@ -30,8 +30,12 @@
 }
 
 .topbar a {
-    float: right;
+    float: left;
     padding: 5px 10px;
     width: var(--icon-size);
     background-color: rgba(0, 0, 0, 0);
+}
+
+.topbar a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }

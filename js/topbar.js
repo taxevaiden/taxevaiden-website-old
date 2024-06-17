@@ -59,10 +59,10 @@ var createTopbar = function (isblog) {
     blogsImage.className = "icon";
     blogs.appendChild(blogsImage);
 
-  topbarDiv.appendChild(blogs);
-  topbarDiv.appendChild(projects);
-  topbarDiv.appendChild(about);
   topbarDiv.appendChild(home);
+  topbarDiv.appendChild(about);
+  topbarDiv.appendChild(projects);
+  topbarDiv.appendChild(blogs);
 
   const body = document.getElementById("main");
   body.appendChild(topbarDiv);

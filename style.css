@@ -36,15 +36,11 @@ p, a, li {
     font-size: small;
 }
 
-
-
 body {
     background-image: var(--background-image);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-
-    
 }
 
 .div_text {
@@ -61,6 +57,121 @@ body {
     padding: 5px;
 
     box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+/*html comment box styling*/
+#HCB_comment_box {
+    font-family: var(--font);
+    color: black;
+    background-color: white;
+    border-style: dotted;
+    border-color: black;
+    border-width: 1px;
+
+    padding: 5px;
+
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
+
+    margin-bottom: 10px;
+}
+
+#HCB_comment_box p.error {
+    border: 1px solid red;
+    background-color: #fee
+}
+
+.hcb-mod b {
+    color: #d34
+}
+
+#HCB_comment_box textarea,
+#HCB_comment_box input.text {
+    font-family: var(--font);
+    background-color: white;
+    border-style: dotted;
+    border-color: black;
+    border-width: 1px;
+
+    padding: 5px;
+
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
+
+    margin-bottom: 10px;
+}
+
+#HCB_comment_box .hcb-wrapper-half {
+    display: block;
+    width: 50%;
+    float: left;
+
+    
+}
+
+#HCB_comment_box .hcb-wrapper {
+    clear: both
+}
+
+#HCB_comment_box #hcb_form_name {
 
 
+    background-color: white;
+    border-style: dotted;
+    border-color: black;
+    border-width: 1px;
+
+    padding: 5px;
+
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
+
+    margin-bottom: 10px;
+}
+
+#HCB_comment_box input.text {
+    display: block;
+    width: 97%;
+
+
+    background-color: white;
+    border-style: dotted;
+    border-color: black;
+    border-width: 1px;
+
+    padding: 5px;
+
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
+
+    margin-bottom: 10px;
+}
+
+#HCB_comment_box input.submit {
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+    padding: 5px;
+
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
+
+    margin-bottom: 10px;
+    font-weight: 700;
+    cursor: pointer
+}
+
+#HCB_comment_box div.comment {
+    background-color: white;
+    border-style: dotted;
+    border-color: black;
+    border-width: 1px;
+
+    padding: 5px;
+
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
+
+    margin-bottom: 10px;
+}
+
+.hcb-mod i {
+    color: #00008b
 }
