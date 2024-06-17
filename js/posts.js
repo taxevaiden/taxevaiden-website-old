@@ -27,6 +27,7 @@ var postSummary = function (link, title, date)
 
 var addPosts = function ()
 {
+    postSummary("posts/i-need-ideas", "i need ideas.", "6/17/2024");
     postSummary("posts/changes-to-the-website.html", "changes to the website", "6/16/2024");
     postSummary("posts/first-post.html", "first post!!", "6/15/2024");
 }
