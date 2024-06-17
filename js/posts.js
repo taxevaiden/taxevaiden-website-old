@@ -3,7 +3,7 @@ var postSummary = function (link, title, date)
     var container = document.createElement("div");
     container.className = "blogSummary";
 
-    var blogTitle = document.createElement("h2");
+    var blogTitle = document.createElement("h3");
     var titleA = document.createElement("a");
     titleA.href = link;
     var titleContents = document.createTextNode(`${title}`);
@@ -12,8 +12,10 @@ var postSummary = function (link, title, date)
     
 
     var blogDate = document.createElement("p");
+    var blogDateContents = document.createElement("small")
     var dateString = document.createTextNode(`${date}`)
-    blogDate.appendChild(dateString);
+    blogDateContents.appendChild(dateString);
+    blogDate.appendChild(blogDateContents);
 
     container.appendChild(blogTitle);
     container.appendChild(blogDate);
@@ -25,6 +27,7 @@ var postSummary = function (link, title, date)
 
 var addPosts = function ()
 {
+    postSummary("posts/changes-to-the-website.html", "changes to the website", "6/16/2024");
     postSummary("posts/first-post.html", "first post!!", "6/15/2024");
 }
 
