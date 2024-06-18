@@ -61,7 +61,7 @@ body {
 
 /*html comment box styling*/
 #HCB_comment_box {
-    font-family: var(--font);
+    
     color: black;
     background-color: white;
     border-style: dotted;
@@ -174,4 +174,9 @@ body {
 
 .hcb-mod i {
     color: #00008b
+}
+
+/*fonty monty*/
+#HCB_comment_box input, #HCB_comment_box input.btn, #HCB_comment_box select, #HCB_comment_box textarea {
+    font-family: var(--font), sans-serif !important;
 }
