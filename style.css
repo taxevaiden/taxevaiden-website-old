@@ -179,4 +179,5 @@ body {
 /*fonty monty*/
 #HCB_comment_box input, #HCB_comment_box input.btn, #HCB_comment_box select, #HCB_comment_box textarea {
     font-family: var(--font), sans-serif !important;
+    
 }

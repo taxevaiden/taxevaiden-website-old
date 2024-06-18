@@ -75,14 +75,14 @@ hcb_user = {
     rss:'<img src="https://www.htmlcommentbox.com/static/images/feed.svg" class="hcb-icon" alt="rss"/> ',
     prev_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
     next_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_right.png" class="hcb-icon" title="next page" alt="[next]"/>',
-    showing:'Showing',
+    showing:'showing',
     to:'to',
     website_label:'website (optional)',
     email_label:'email',
-    anonymous:'Anonymous',
+    anonymous:'anonymous',
     mod_label:'[MOD]',
-    subscribe:'Send emails of replies',
-    add_image:'Add image',
+    subscribe:'send emails of replies',
+    add_image:'add image',
     are_you_sure:'you sure this comment is bad? if so, go ahead and flag it.',
 
     reply:'reply',
@@ -128,7 +128,7 @@ if (!window.hcb_user) {
     s.setAttribute("type","text/javascript");
     s.setAttribute(
         "src", 
-        h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%244MFMPuNKVx2MWFlwjNrVr1"+"&opts=16798&num=10&ts=1705610387929"
+        h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24WajW%2FZqub0VOOBdNPrlnv."+"&opts=16798&num=10&ts=1718677699754"
     );
 
     if (typeof s != "undefined") {
