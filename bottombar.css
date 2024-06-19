@@ -1,0 +1,26 @@
+:root {
+
+    ----bottombar-height: 20px;
+
+}
+
+
+.bottombar {
+    overflow: hidden;
+    background-color: white;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: black;
+
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
+
+    margin-bottom: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: calc(30vw + 10px);
+
+    text-align: left center;
+}
+
