@@ -10,18 +10,21 @@
     <title>first post!!</title>
     <link>https://taxevaiden.pages.dev/posts/first-post</link>
     <description>first post of the blog. nothing much there other than being used as a template for making new blogs.</description>
+    <pubDate>Sat, 15 Apr 2024</pubDate>
   </item>
 
   <item>
     <title>changes to the website</title>
     <link>https://taxevaiden.pages.dev/posts/changes-to-the-website</link>
     <description>blog letting you know that i changed the style of the website a little bit.</description>
+    <pubDate>Sun, 16 Apr 2024</pubDate>
   </item>
 
   <item>
     <title>i need ideas.</title>
     <link>https://taxevaiden.pages.dev/posts/i-need-ideas</link>
     <description>i ran out of ideas making the website, and i want to add more things to it so now i'm asking YOU for ideas. i hope you don't mind :')</description>
+    <pubDate>Mon, 17 Apr 2024</pubDate>
   </item>
 
 </channel>
