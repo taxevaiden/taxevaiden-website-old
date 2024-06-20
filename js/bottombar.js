@@ -3,7 +3,7 @@ var createBottomBar = function () {
     bottomBarDiv.className = "bottombar";
   
     var note = document.createElement("p");
-    note.innerHTML = "&copy; 2024 aiden/taxevaiden. All rights reserved.";
+    note.innerHTML = "&copy; 2024 aiden/taxevaiden, unless noted, all rights reserved.";
 
     bottomBarDiv.appendChild(note);
   
