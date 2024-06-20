@@ -86,7 +86,8 @@ body {
 }
 
 #HCB_comment_box textarea,
-#HCB_comment_box input.text {
+#HCB_comment_box input.text,
+#HCB_comment_box .btn {
     font-family: var(--font);
     background-color: white;
     border-style: dotted;
