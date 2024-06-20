@@ -29,9 +29,14 @@
     width: calc(30vw + 10px);
 }
 
+.topbar p {
+    float: right;
+    margin-right: 5px;
+}
+
 .topbar a {
     float: left;
-    padding: 5px 10px;
+    padding: 10px 15px;
     width: var(--icon-size);
     background-color: rgba(0, 0, 0, 0);
 }

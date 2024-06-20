@@ -56,13 +56,19 @@ var createTopbar = function (isblog) {
       blogs.href = "blogs.html";
         blogsImage.src = "images/icons/blogs.png";
     }
-    blogsImage.className = "icon";
-    blogs.appendChild(blogsImage);
+  blogsImage.className = "icon";
+  blogs.appendChild(blogsImage);
+
+  const p = document.createElement("p");
+  const pContents = document.createTextNode("aiden/taxevaiden");
+  p.appendChild(pContents);
 
   topbarDiv.appendChild(home);
   topbarDiv.appendChild(about);
   topbarDiv.appendChild(projects);
   topbarDiv.appendChild(blogs);
+  
+  topbarDiv.appendChild(p);
 
   const body = document.getElementById("main");
   body.appendChild(topbarDiv);
