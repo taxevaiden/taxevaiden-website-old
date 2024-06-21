@@ -67,7 +67,7 @@ var createTopbar = function (isblog) {
   topbarDiv.appendChild(about);
   topbarDiv.appendChild(projects);
   topbarDiv.appendChild(blogs);
-  
+
   topbarDiv.appendChild(p);
 
   const body = document.getElementById("main");

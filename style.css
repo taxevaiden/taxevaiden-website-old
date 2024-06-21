@@ -153,8 +153,6 @@ body {
 }
 
 #HCB_comment_box #hcb_form_name {
-
-
     background-color: white;
     border-style: dotted;
     border-color: black;
@@ -170,7 +168,6 @@ body {
 #HCB_comment_box input.text {
     display: block;
     width: 97%;
-
 
     background-color: white;
     border-style: dotted;
@@ -220,5 +217,4 @@ body {
 /*fonty monty*/
 #HCB_comment_box input, #HCB_comment_box input.btn, #HCB_comment_box select, #HCB_comment_box textarea {
     font-family: var(--font), sans-serif !important;
-    
 }

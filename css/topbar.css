@@ -27,6 +27,9 @@
     margin-right: auto;
     
     width: calc(30vw + 10px);
+
+    transition-duration: 0.2;
+    transition-timing-function: linear;
 }
 
 .topbar p {
