@@ -4,6 +4,7 @@
 <channel>
   <title>taxevaiden's website</title>
   <link>https://taxevaiden.pages.dev/</link>
+  <atom:link href="https://taxevaiden.pages.dev/rss.xml" rel="self" type="application/rss+xml"></atom:link>
   <description>coder disguised as an artist</description>
   
   <item>
