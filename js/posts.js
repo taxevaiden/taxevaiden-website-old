@@ -51,11 +51,27 @@ var addExtras = function ()
     
 }
 
+var shareButtonClick = function ()
+{
+    const button = document.getElementById("share-post");
+    if (button.className != "btn disabled") {
+        navigator.clipboard.writeText(window.location.href);
+    
+        button.innerHTML = "link copied!";
+        button.className += " disabled";
+    } else {
+        button.innerHTML = "you already copied the link.";
+    }
+}
+
 var addExtrasEnd = function ()
 {
     var main_text = document.getElementById("blog_div");
 
+    
+
     main_text.innerHTML += `
+    <button class="btn" id="share-post" onclick="shareButtonClick();">share this post!</button>
 
             <!-- begin wwww.htmlcommentbox.com -->
  <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
