@@ -5,11 +5,13 @@
         <title>about</title>
         <link rel="icon" type="image/x-icon" href="images/icons/icon.ICO">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="prism/prism.css">
     </head>
 
     <body id="main">
         <script src="js/topbar.js"></script>
         <script src="js/bottombar.js"></script>
+        <script src="prism/prism.js"></script>
         <script>createTopbar(false);</script>
 
         <div class="div_text">
@@ -40,9 +42,11 @@
 
             <p>aaand the site link</p>
             <a href="https://taxevaiden.pages.dev/"><img src="https://taxevaiden.pages.dev/images/88x31button.gif"></a>
-            <p><code>
-                <a href="https://taxevaiden.pages.dev/"><img src="https://taxevaiden.pages.dev/images/88x31button.gif"></a>
-            </code></p>
+            <p><pre><code class="language-html line-numbers">
+&lt;a href=&quot;https://taxevaiden.pages.dev/&quot;&gt;
+    &lt;img src=&quot;https://taxevaiden.pages.dev/images/88x31button.gif&quot; alt=&quot;taxevaiden's website&quot;&gt;
+&lt;/a&gt;
+            </code></pre></p>
         </div>
 
         <script>createBottomBar();</script>
