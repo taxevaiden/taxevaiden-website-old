@@ -10,6 +10,11 @@
 .icon {
     width: var(--icon-size);
     height: var(--icon-size);
+
+    padding: 0px 10px;
+
+    display: inline-block;
+    vertical-align: baseline;
 }
 
 .topbar {
@@ -27,20 +32,22 @@
     margin-right: auto;
     
     width: calc(30vw + 10px);
-
-    transition-duration: 0.2;
-    transition-timing-function: linear;
 }
 
 .topbar p {
     float: right;
     margin-right: 5px;
+    
+    
+}
+
+.topbar-a-text {
+    float: right;
 }
 
 .topbar a {
     float: left;
-    padding: 10px 15px;
-    width: var(--icon-size);
+    padding: 0px 15px;
     background-color: rgba(0, 0, 0, 0);
 }
 

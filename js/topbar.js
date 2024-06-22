@@ -15,7 +15,12 @@ var createTopbar = function (isblog) {
         homeImage.src = "images/icons/home.png";
     }
   homeImage.className = "icon";
-  home.appendChild(homeImage);
+  const homeText = document.createElement("p");
+  homeText.appendChild(homeImage);
+  const homeTextContents = document.createTextNode("home");
+  homeText.appendChild(homeTextContents);
+  homeText.className = "topbar-a-text"; 
+  home.appendChild(homeText);
 
   //about
   const about = document.createElement("a");
@@ -29,7 +34,12 @@ var createTopbar = function (isblog) {
         aboutImage.src = "images/icons/about.png";
     }
   aboutImage.className = "icon";
-  about.appendChild(aboutImage);
+  const aboutText = document.createElement("p");
+  aboutText.appendChild(aboutImage);
+  const aboutTextContents = document.createTextNode("about");
+  aboutText.appendChild(aboutTextContents);
+  aboutText.className = "topbar-a-text";
+  about.appendChild(aboutText);
 
   //projects
   const projects = document.createElement("a");
@@ -42,8 +52,13 @@ var createTopbar = function (isblog) {
         projects.href = "projects.html";
         projectsImage.src = "images/icons/projects.png";
     }
+    const projectsText = document.createElement("p");
+    projectsText.appendChild(projectsImage);
+    const projectsTextContents = document.createTextNode("projects");
+    projectsText.appendChild(projectsTextContents);
+    projectsText.className = "topbar-a-text";
   projectsImage.className = "icon";
-  projects.appendChild(projectsImage);
+  projects.appendChild(projectsText);
 
   //blogs
   const blogs = document.createElement("a");
@@ -56,19 +71,21 @@ var createTopbar = function (isblog) {
       blogs.href = "blogs.html";
         blogsImage.src = "images/icons/blogs.png";
     }
+    const blogsText = document.createElement("p");
+    blogsText.appendChild(blogsImage);
+    const blogsTextContents = document.createTextNode("blogs");
+    blogsText.appendChild(blogsTextContents);
+    homeText.className = "topbar-a-text";
   blogsImage.className = "icon";
-  blogs.appendChild(blogsImage);
+  blogs.appendChild(blogsText);
 
-  const p = document.createElement("p");
-  const pContents = document.createTextNode("aiden/taxevaiden");
-  p.appendChild(pContents);
+  
 
   topbarDiv.appendChild(home);
   topbarDiv.appendChild(about);
   topbarDiv.appendChild(projects);
   topbarDiv.appendChild(blogs);
 
-  topbarDiv.appendChild(p);
 
   const body = document.getElementById("main");
   body.appendChild(topbarDiv);

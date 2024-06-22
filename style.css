@@ -43,6 +43,24 @@ p, a, li {
     font-size: small;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(57, 76, 112);
+
+    letter-spacing: normal;
+
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+a:hover {   
+    letter-spacing: .05rem;
+    text-decoration: underline;
+
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
 body {
     background-image: var(--background-image);
     background-position: center;
