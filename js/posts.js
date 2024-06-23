@@ -184,3 +184,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
 $(".hcb-link").on("click", (event) => {
     removeMessage()
 })
+
+//trigger when "post another comment" button is clicked
+document.querySelector(".btn-secondary")
+                .addEventListener("click", function () {
+                    removeMessage();
+                });
