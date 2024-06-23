@@ -122,6 +122,23 @@ body {
     height: 64px;
 }
 
+.blog-img {
+    max-width: 75%;
+
+    display: block;
+
+    margin-bottom: 10px;
+    
+    background-color: white;
+    border-style: dotted;
+    border-color: black;
+    border-width: 1px;
+
+    padding: 5px;
+
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
+}
+
 /*html comment box styling*/
 #HCB_comment_box {
     

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>hosting your own website</title>
+        <link rel="icon" type="image/x-icon" href="../images/icons/icon.ICO">
+        <link rel="stylesheet" href="../style.css">
+    </head>
+
+    <body id="main">
+        <script src="../js/topbar.js"></script>
+        <script src="../js/bottombar.js"></script>
+        <script src="../js/posts.js"></script>
+        <script>createTopbar(true);</script>
+
+        <div class="div_text" id="blog_div">
+            <script>addExtras();</script>
+            <h1>hosting your own website</h1>
+
+            <p><small>6/23/2024</small></p>
+
+            <p>
+                since i said i used pages.dev to host this website on my last post, i figured i would make a guide on how to actually use pages.dev.<br>it's actually very simple
+            </p>
+
+            <p>all you have to do is;</p>
+            <li>make a github repo</li>
+            <li>use github desktop to clone the repo onto your PC</li>
+            <li>put your html css and js code into the local repo</li>
+            <li>commit</li>
+            <li>put your site on pages.dev</li>
+
+            <p>i'll walk you through :3</p>
+
+            <h4>quickkk note; you should have github desktop. install it first before following this guide ok thank you :)</h4>
+
+            <h2>making the github repo</h2>
+
+            <p>making a repo is easy. just <a href="https://github.com/signup">make an account first.</a></p>
+            <p>once you have an account, you should (probably) be on the dashboard.<br>when you're on the dashboard, you can go ahead and make a new repo.</p>
+
+            <img class="blog-img" src="../images/misc/github-newrepo.png">
+
+            <p>click the "new" button, and you'll be redirected to this page.</p>
+
+            <img class="blog-img" src="../images/misc/github-newrepopage.png">
+
+            <p>name the repo whatever you want, do all the settings blah blah blah<br>once you're done, now you can click "create repository"</p>
+
+            <img class="blog-img" src="../images/misc/github-repocreated.png">
+
+            <p>after creating your repo, you will be greeted by this page. you are now at the repo page.<br>click "set up in github desktop".</p>
+
+            <p>github desktop should open up.<br>you can go ahead and set the local path to something else, but i just have it as the default.</p>
+            <p><small>write this "local path" down somewhere, you will need it later.</small></p>
+
+            <img class="blog-img" src="../images/misc/githubdesktop-clonerepo.png">
+
+            <p>click "clone" and now you'll be in your github repo.</p>
+
+            <p>now, you can open up your favorite code editor (i use vscode) and open your local github repo<br>this is pretty much just a folder.</p>
+
+            <p>now, go to town making your website!! use pure html, css, and js, or whatever you want!</p>
+            
+            <p>and after you're done making the website, you can commit your changes. this is as easy as clicking a button.</p>
+
+            <img class="blog-img" src="../images/misc/commit.png">
+
+            <p>then publish the branch.. and now your local github repo is now on the github repo (that's available to the whole world)<br>so now, your repo is there, but now what?</p>
+            <p>now it's time for some pages.dev!!</p>
+
+            <h2>using pages.dev</h2>
+
+            <p>go to your browser and type in pages.dev. it should redirect you to cloudflare pages.</p>
+
+            <img class="blog-img" src="../images/misc/browser.png">
+            <p><small>yes i use the Arc browser it's actually really good</small></p>
+
+            <p>once you're on the website, click sign up, and do your signing up stuff like normal.</p>
+            <img class="blog-img" src="../images/misc/pagesdevsignup.png">
+
+            <p>and now you are on the dashboard.<br>you could do a lot of stuff, including buying a domain<br>but i won't do that step (i'm broke af)</p>
+            <p>what we will be focusing on is the "workers & pages" tab.<br>go to the sidebar, and click on "workers & pages".</p>
+
+            <p>now that you're in the "workers & pages" tab, you can click "create".</p>
+
+            <img class="blog-img" src="../images/misc/workerspages.png">
+
+            <p>you'll now see "create an application" by default we are on the "workers: tab.<br>but nobody wants that, so we have to switch to the "pages" tab.</p>
+
+            <img class="blog-img" src="../images/misc/workers-to-pages.png">
+
+            <p>there should be a "connect to git" button. click that, and if prompted to login to github, do so.<br>select your repository with your amazing website on it, and begin the setup!</p>
+
+            <p>for me, i used pure html, css, and js, so i didn't use a static site generator.<br>if you did use one, you have to fill in the build settings.</p>
+
+            <p>after that's done, click "save and deploy"!!<br>now, it's building and deplying your site. this might take a while if your website is massive.</p>
+            <p>it'll give you a domain, and when you visit it, you beautiful website will be there. (you'll have to wait a while for it to show up.)</p>
+
+            <img class="blog-img" src="../images/misc/new-website.png">
+
+            <p>there are easier ways (such as using neocities) but this is the way i used to make this website.</p>
+
+            <p>this post is pretty long so i'll edit and fix some issues i find in this post.</p>
+
+            <script>addExtrasEnd();</script>
+        </div>
+
+        <script>createBottomBar();</script>
+
+    </body>
+</html>
