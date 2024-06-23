@@ -6,6 +6,7 @@
 @import url('css/projects.css');
 @import url('css/blogs.css');
 @import url('css/decor.css');
+@import url('css/status.css');
 
 
 :root {
@@ -39,7 +40,7 @@ h3 {
     font-size: medium;
 }
 
-p, a, li {
+p, li {
     font-size: small;
 }
 
