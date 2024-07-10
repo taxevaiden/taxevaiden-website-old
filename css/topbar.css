@@ -54,3 +54,18 @@
 .topbar a:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
+
+#menu_icon {
+    display: none;
+    padding: 12px 15px;
+}
+
+@media (max-width: 625px) {
+    #menu_icon {
+        display: inline !important;
+    }
+
+    .topbar a {
+        display: none;
+    }
+}

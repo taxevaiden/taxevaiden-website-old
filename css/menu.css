@@ -1,0 +1,52 @@
+:root {
+    --menu-width: 225px;
+    --blur-amount: 10px;
+    --menu-background: rgb(255, 255, 255, 0.5);
+}
+
+
+.menu_div {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    width: var(--menu-width);
+    backdrop-filter: blur(var(--blur-amount));
+    background-color: var(--menu-background);
+
+    height: 100%;
+
+    z-index: 2;
+
+    border-right: 1px dotted black;
+
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+}
+
+.menu_div a {
+    display: block;
+
+    padding: 10px 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.menu_div a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.closed {
+    left: calc(var(--menu-width) * -1);
+
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+}
+
+@media (min-width: 625px) {
+    .menu_div {
+        left: calc(var(--menu-width) * -1) !important;
+
+        transition-duration: 0.1s;
+        transition-timing-function: ease-out;
+    }
+}

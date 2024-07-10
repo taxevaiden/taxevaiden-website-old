@@ -1,4 +1,29 @@
 var createTopbar = function (isblog) {
+  const body = document.getElementById("main");
+  if (isblog)
+    {
+      body.innerHTML += `<div id="menu_bar" class="menu_div closed">
+      <a id="close"><img class="icon" src="../images/icons/menu.png"></a>
+      <a href="../index.html"><img class="icon" src="../images/icons/home.png">home</a>
+      <a href="../about.html"><img class="icon" src="../images/icons/about.png">about</a>
+      <a href="../projects.html"><img class="icon" src="../images/icons/projects.png">projects</a>
+      <a href="../blogs.html"><img class="icon" src="../images/icons/blogs.png">blog</a>
+    </div>`;
+    } else {
+      body.innerHTML += `<div id="menu_bar" class="menu_div closed">
+      <a id="close"><img class="icon" src="images/icons/menu.png"></a>
+      <a href="index.html"><img class="icon" src="images/icons/home.png">home</a>
+      <a href="about.html"><img class="icon" src="images/icons/about.png">about</a>
+      <a href="projects.html"><img class="icon" src="images/icons/projects.png">projects</a>
+      <a href="blogs.html"><img class="icon" src="images/icons/blogs.png">blog</a>
+    </div>`;
+    }
+    
+    const menuBarButton = document.getElementById("close");
+    menuBarButton.onclick = function() {
+      this.parentElement.className = "menu_div closed";
+    }
+
   const topbarDiv = document.createElement("div");
   topbarDiv.className = "topbar";
 
@@ -75,9 +100,25 @@ var createTopbar = function (isblog) {
     blogsText.appendChild(blogsImage);
     const blogsTextContents = document.createTextNode("blogs");
     blogsText.appendChild(blogsTextContents);
-    homeText.className = "topbar-a-text";
+    blogsText.className = "topbar-a-text";
   blogsImage.className = "icon";
   blogs.appendChild(blogsText);
+
+  const menu = document.createElement("a");
+  const menuImage = document.createElement("img");
+  if (isblog)
+    {
+      menuImage.src = "../images/icons/menu.png";
+    } else {
+      menuImage.src = "images/icons/menu.png";
+    }
+    menuImage.className = "icon";
+    menu.appendChild(menuImage);
+    menu.id = "menu_icon";
+    menu.onclick = function() {
+      const menuBar = document.getElementById("menu_bar"); 
+      menuBar.className = "menu_div";
+    };
 
   
 
@@ -85,8 +126,10 @@ var createTopbar = function (isblog) {
   topbarDiv.appendChild(about);
   topbarDiv.appendChild(projects);
   topbarDiv.appendChild(blogs);
+  topbarDiv.appendChild(menu);
 
-
-  const body = document.getElementById("main");
+  
   body.appendChild(topbarDiv);
+
+  
 };
