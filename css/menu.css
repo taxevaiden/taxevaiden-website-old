@@ -1,7 +1,6 @@
 :root {
     --menu-width: 225px;
-    --blur-amount: 10px;
-    --menu-background: rgb(255, 255, 255, 0.5);
+    --menu-background: rgb(255, 255, 255, 1);
 }
 
 
