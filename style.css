@@ -138,6 +138,32 @@ body {
     box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
 }
 
+/*the COOLEST sroll bar*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    
+}
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ececec;
+    border-left: 1px dotted black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border: 1px solid black;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #cecece;
+  }
+
 /*html comment box styling*/
 #HCB_comment_box {
     
