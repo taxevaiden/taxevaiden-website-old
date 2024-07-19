@@ -235,6 +235,8 @@ html {
 .rss-icon {
     width: 64px;
     height: 64px;
+
+    filter: invert(var(--invert-icon));
 }
 
 .blog-img {

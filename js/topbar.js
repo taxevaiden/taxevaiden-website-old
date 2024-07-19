@@ -113,8 +113,14 @@ var createTopbar = function (isblog) {
     } else {
       menuImage.src = "images/icons/menu.png";
     }
+    const menuText = document.createElement("p");
+    menuText.appendChild(blogsImage);
+    const menuTextontents = document.createTextNode("menu");
+    menuText.appendChild(menuTextContents);
+    menuText.className = "topbar-a-text";
     menuImage.className = "icon";
     menu.appendChild(menuImage);
+    menu.appendChild(menuText)
     menu.id = "menu_icon";
     menu.onclick = function() {
       const menuBar = document.getElementById("menu_bar"); 
