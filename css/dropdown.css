@@ -22,7 +22,7 @@
     display: none;
     position: absolute;
     background-color: var(--div-background-color);
-    width: calc(100% - 2px);
+    width: calc(100% - (var(--div-outline-width) * 2px));
     box-shadow: var(--shadow-x) var(--shadow-y) var(--shadow-color);
     z-index: 1;
 
@@ -38,8 +38,9 @@
 .dropdown-content a {
     padding: 5px 5px;
     width: calc(100% - 10px);
-    text-decoration: none;
     display: block;
+
+    font-size: small;
 
     border-bottom: var(--div-outline-width) var(--div-outline-style) var(--div-outline-color);
 }

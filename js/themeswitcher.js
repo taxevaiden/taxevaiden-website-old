@@ -70,8 +70,17 @@ var createThemeSwitcher = function ()
         setCookie("theme", "dark", 99999999);
     }
 
+    const terminalTheme = document.createElement("a");
+    terminalTheme.innerText = "terminal";
+    terminalTheme.onclick = function ()
+    {
+        document.documentElement.className = "terminal";
+        setCookie("theme", "terminal", 99999999);
+    }
+
     dropdownContent.appendChild(lightTheme);
     dropdownContent.appendChild(darkTheme);
+    dropdownContent.appendChild(terminalTheme);
     dropdown.appendChild(dropdownButton);
     dropdown.appendChild(dropdownContent);
 

@@ -13,7 +13,7 @@
 
     padding: 0px 10px;
 
-    display: inline-block;
+    display: var(--icon-display);
     vertical-align: baseline;
     filter: invert(var(--invert-icon));
 

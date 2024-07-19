@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 @import url('css/topbar.css');
 @import url('css/bottombar.css');
@@ -10,13 +10,6 @@
 @import url('css/status.css');
 @import url('css/dropdown.css');
 
-
-:root {
-    --font: 'Pixelify Sans';
-
-    --background-image: url("images/backgrounds/3.gif");
-}
-
 /* themes!! */
 .light {
     --div-outline-style: dotted;
@@ -24,6 +17,9 @@
     --div-outline-width: 1px;
 
     --div-background-color: white;
+
+    --background-image: url("images/backgrounds/3.gif");
+    --background-color: white;
 
     --shadow-x: 0px;
     --shadow-y: 5px;
@@ -34,6 +30,7 @@
     --invert-icon: 0%;
 
     --decor-display: inline-block;
+    --icon-display: inline-block;
 
     --text-color: black;
     --text-a-color: rgb(57, 76, 112);
@@ -41,6 +38,8 @@
     --hover-color: rgba(229.5, 229.5, 229.5, 1);
     --disabled: rgba(178.5, 178.5, 178.5, 1);
     --disabled-hover: rgba(153, 153, 153, 1);
+
+    --font: 'Pixelify Sans';
 }
 
 .dark {
@@ -49,6 +48,9 @@
     --div-outline-width: 1px;
 
     --div-background-color: rgb(0, 0, 0);
+
+    --background-image: url("images/backgrounds/3.gif");
+    --background-color: black;
 
     --shadow-x: 0px;
     --shadow-y: 5px;
@@ -59,6 +61,7 @@
     --invert-icon: 100%;
 
     --decor-display: inline-block;
+    --icon-display: inline-block;
 
     --text-color: white;
     --text-a-color: rgb(164, 186, 226);
@@ -66,6 +69,39 @@
     --hover-color: rgb(26, 26, 26);
     --disabled: rgb(17, 17, 17);
     --disabled-hover: rgb(10, 10, 10);
+
+    --font: 'Pixelify Sans';
+}
+
+.terminal {
+    --div-outline-style: solid;
+    --div-outline-color: rgb(96, 207, 92);
+    --div-outline-width: 2px;
+
+    --div-background-color: rgb(0, 0, 0);
+
+    --background-image: none;
+    --background-color: black;
+
+    --shadow-x: 0px;
+    --shadow-y: 0px;
+    --shadow-color: rgba(0, 0, 0, 0.5);
+
+    --invert-decor: 100%;
+    --invert-background: 0%;
+    --invert-icon: 100%;
+
+    --decor-display: none;
+    --icon-display: none;
+
+    --text-color: rgb(96, 207, 92);
+    --text-a-color: rgb(136, 214, 133);
+
+    --hover-color: rgb(26, 26, 26);
+    --disabled: rgb(17, 17, 17);
+    --disabled-hover: rgb(10, 10, 10);
+
+    --font: 'JetBrains Mono', monospace;
 }
 
 * {
@@ -129,6 +165,7 @@ body::before {
 
     content: "";
     background-image: var(--background-image);
+    background-color: var(--background-color);
     background-position: center;
     background-attachment: fixed;
     background-size: 64px 64px;
