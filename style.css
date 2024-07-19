@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 @import url('css/topbar.css');
 @import url('css/bottombar.css');
@@ -102,6 +103,37 @@
     --disabled-hover: rgb(10, 10, 10);
 
     --font: 'JetBrains Mono', monospace;
+}
+
+.durpydoo {
+    --div-outline-style: solid;
+    --div-outline-color: rgb(85, 207, 255);
+    --div-outline-width: 2px;
+
+    --div-background-color: rgb(222, 246, 255);
+
+    --background-image: url("images/backgrounds/4.png");
+    --background-color: rgb(222, 246, 255);
+
+    --shadow-x: 0px;
+    --shadow-y: 5px;
+    --shadow-color: rgba(0, 0, 0, 0.5);
+
+    --invert-decor: 0%;
+    --invert-background: 0%;
+    --invert-icon: 0%;
+
+    --decor-display: none;
+    --icon-display: none;
+
+    --text-color: rgb(39, 44, 46);
+    --text-a-color: rgb(92, 128, 143);
+
+    --hover-color: rgb(164, 207, 224);
+    --disabled: rgb(106, 128, 136);
+    --disabled-hover: rgb(49, 60, 65);
+
+    --font: 'Comic Sans MS', 'Comic Neue';
 }
 
 * {

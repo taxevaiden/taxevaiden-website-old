@@ -3,7 +3,7 @@ var createBottomBar = function () {
     bottomBarDiv.className = "bottombar";
   
     var note = document.createElement("p");
-    note.innerHTML = "&copy; 2024 aiden/taxevaiden, unless noted, all rights reserved.";
+    note.innerHTML = "&copy; 2024 aiden/taxevaiden, unless noted, all rights reserved.<br>background in durpydoo theme created by winterkin_ (it's just durpydoo's pfp lmao)";
 
     bottomBarDiv.appendChild(note);
   

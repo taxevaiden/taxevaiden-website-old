@@ -78,9 +78,19 @@ var createThemeSwitcher = function ()
         setCookie("theme", "terminal", 99999999);
     }
 
+    const durpydooTheme = document.createElement("a");
+    durpydooTheme.innerText = "DurpyDoo";
+    durpydooTheme.onclick = function ()
+    {
+        document.documentElement.className = "durpydoo";
+        setCookie("theme", "durpydoo", 99999999);
+    }
+
+
     dropdownContent.appendChild(lightTheme);
     dropdownContent.appendChild(darkTheme);
     dropdownContent.appendChild(terminalTheme);
+    dropdownContent.appendChild(durpydooTheme);
     dropdown.appendChild(dropdownButton);
     dropdown.appendChild(dropdownContent);
 
