@@ -115,7 +115,7 @@ var createTopbar = function (isblog) {
     }
     const menuText = document.createElement("p");
     menuText.appendChild(blogsImage);
-    const menuTextontents = document.createTextNode("menu");
+    const menuTextContents = document.createTextNode("menu");
     menuText.appendChild(menuTextContents);
     menuText.className = "topbar-a-text";
     menuImage.className = "icon";
