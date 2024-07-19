@@ -2,30 +2,36 @@
     width: 128px;
     height: 128px;
 
-    display: inline-block;
+    display: var(--decor-display);
 
     position: absolute;
     pointer-events: none;
+
+    filter: invert(var(--invert-decor));
 }
 
 .decor2 {
     width: 256px;
     height: 256px;
 
-    display: inline-block;
+    display: var(--decor-display);
 
     position: absolute;
     pointer-events: none;
+
+    filter: invert(var(--invert-decor));
 }
 
 .decor3 {
     width: 512px;
     height: 512px;
 
-    display: inline-block;
+    display: var(--decor-display);
 
     position: absolute;
     pointer-events: none;
+
+    filter: invert(var(--invert-decor));
 }
 
 @media (max-width: 625px) {

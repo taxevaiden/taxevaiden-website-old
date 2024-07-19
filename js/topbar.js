@@ -26,6 +26,7 @@ var createTopbar = function (isblog) {
 
   const topbarDiv = document.createElement("div");
   topbarDiv.className = "topbar";
+  topbarDiv.id = "topbar";
 
   //home
   const home = document.createElement("a");

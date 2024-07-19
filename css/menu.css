@@ -1,6 +1,5 @@
 :root {
     --menu-width: 225px;
-    --menu-background: rgb(255, 255, 255, 1);
 }
 
 
@@ -10,14 +9,13 @@
     left: 0px;
 
     width: var(--menu-width);
-    backdrop-filter: blur(var(--blur-amount));
-    background-color: var(--menu-background);
+    background-color: var(--div-background-color);
 
     height: 100%;
 
     z-index: 2;
 
-    border-right: 1px dotted black;
+    border-right: var(--div-outline-width) var(--div-outline-style) var(--div-outline-color);
 }
 
 .menu_div a {
