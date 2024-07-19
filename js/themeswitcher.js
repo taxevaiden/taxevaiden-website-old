@@ -32,8 +32,7 @@ function getCookie(name, defaultValue = null) {
 var createThemeSwitcher = function ()
 {
     let cookieTheme = getCookie("theme", "light");
-    document.documentElement.class = cookieTheme;
-    console.log(cookieTheme);
+    document.documentElement.className = cookieTheme;
 
     const topbarDiv = document.getElementById("topbar");
 
