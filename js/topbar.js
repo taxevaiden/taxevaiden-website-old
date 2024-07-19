@@ -11,7 +11,7 @@ var createTopbar = function (isblog) {
     </div>`;
     } else {
       body.innerHTML += `<div id="menu_bar" class="menu_div closed">
-      <a id="close"><img class="icon" src="images/icons/menu.png"></a>
+      <a id="close"><img class="icon" src="images/icons/menu.png">close</a>
       <a href="index.html"><img class="icon" src="images/icons/home.png">home</a>
       <a href="about.html"><img class="icon" src="images/icons/about.png">about</a>
       <a href="projects.html"><img class="icon" src="images/icons/projects.png">projects</a>
