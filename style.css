@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); /* indie flower, the og,,*/
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
@@ -21,6 +22,12 @@
 
     --background-image: url("images/backgrounds/3.gif");
     --background-color: white;
+
+    /* don't change these settings UNLESS you have a background image*/
+    --background-position: center;
+    --background-attachment: fixed;
+    --background-size: 64px 64px;
+    --background-repeat: repeat;
 
     --shadow-x: 0px;
     --shadow-y: 5px;
@@ -53,6 +60,12 @@
     --background-image: url("images/backgrounds/3.gif");
     --background-color: black;
 
+    /* don't change these settings UNLESS you have a background image*/
+    --background-position: center;
+    --background-attachment: fixed;
+    --background-size: 64px 64px;
+    --background-repeat: repeat;
+
     --shadow-x: 0px;
     --shadow-y: 5px;
     --shadow-color: rgba(0, 0, 0, 0.5);
@@ -74,15 +87,58 @@
     --font: 'Pixelify Sans';
 }
 
+.legacy {
+    --div-outline-style: solid;
+    --div-outline-color: rgb(0, 0, 0);
+    --div-outline-width: 5px;
+
+    --div-background-color: rgb(255, 255, 255);
+
+    --background-image: url("images/backgrounds/1.png");
+    --background-color: black;
+
+    /* don't change these settings UNLESS you have a background image*/
+    --background-position: left center;
+    --background-attachment: fixed;
+    --background-size: cover;
+    --background-repeat: repeat;
+
+    --shadow-x: 0px;
+    --shadow-y: 10px;
+    --shadow-color: rgba(0, 0, 0, 0.5);
+
+    --invert-decor: 0%;
+    --invert-background: 0%;
+    --invert-icon: 0%;
+
+    --decor-display: none;
+    --icon-display: inline-block;
+
+    --text-color: black;
+    --text-a-color: rgb(57, 76, 112);;
+
+    --hover-color: rgb(26, 26, 26);
+    --disabled: rgb(17, 17, 17);
+    --disabled-hover: rgb(10, 10, 10);
+
+    --font: 'Indie Flower';
+}
+
 .terminal {
     --div-outline-style: solid;
     --div-outline-color: rgb(96, 207, 92);
     --div-outline-width: 2px;
 
-    --div-background-color: rgb(0, 0, 0);
+    --div-background-color: rgb(10, 10, 15);
 
     --background-image: none;
-    --background-color: black;
+    --background-color: rgb(10, 10, 15);
+
+    /* don't change these settings UNLESS you have a background image*/
+    --background-position: center;
+    --background-attachment: fixed;
+    --background-size: 512px 10px;
+    --background-repeat: repeat;
 
     --shadow-x: 0px;
     --shadow-y: 0px;
@@ -115,6 +171,12 @@
     --background-image: url("images/backgrounds/4.png");
     --background-color: rgb(222, 246, 255);
 
+    /* don't change these settings UNLESS you have a background image*/
+    --background-position: right center;
+    --background-attachment: fixed;
+    --background-size: cover;
+    --background-repeat: repeat;
+
     --shadow-x: 0px;
     --shadow-y: 5px;
     --shadow-color: rgba(42, 73, 85, 0.5);
@@ -146,17 +208,17 @@ pre {
 
 h1 {
     font-weight: 500;
-    font-size: larger;
+    font-size: x-large;
 }
 
 h2 {
     font-weight: 500;
-    font-size: large;
+    font-size: larger;
 }
 
 h3 {
     font-weight: 500;
-    font-size: medium;
+    font-size: large;
 }
 
 p, li {
@@ -198,10 +260,10 @@ body::before {
     content: "";
     background-image: var(--background-image);
     background-color: var(--background-color);
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 64px 64px;
-    background-repeat: repeat;
+    background-position: var(--background-position);
+    background-attachment: var(--background-attachment);
+    background-size: var(--background-size);
+    background-repeat: var(--background-repeat);
 
     position: fixed;
     top: 0px;

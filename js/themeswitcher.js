@@ -40,8 +40,8 @@ var createThemeSwitcher = function ()
     dropdown.className = "dropdown";
     dropdown.style = `
     float: right;
-    margin-top: 12px;
-    margin-right: 12px;
+    margin-top: calc(((50px - var(--div-outline-width)) - (25px + var(--div-outline-width) * 2)) / 2);
+    margin-right: calc(((50px - var(--div-outline-width)) - (25px + var(--div-outline-width) * 2)) / 2);
     `
 
     const dropdownButton = document.createElement("button");
@@ -70,6 +70,14 @@ var createThemeSwitcher = function ()
         setCookie("theme", "dark", 99999999);
     }
 
+    const legacyTheme = document.createElement("a");
+    legacyTheme.innerText = "legacy";
+    legacyTheme.onclick = function ()
+    {
+        document.documentElement.className = "legacy";
+        setCookie("theme", "legacy", 99999999);
+    }
+
     const terminalTheme = document.createElement("a");
     terminalTheme.innerText = "terminal";
     terminalTheme.onclick = function ()
@@ -89,6 +97,7 @@ var createThemeSwitcher = function ()
 
     dropdownContent.appendChild(lightTheme);
     dropdownContent.appendChild(darkTheme);
+    dropdownContent.appendChild(legacyTheme);
     dropdownContent.appendChild(terminalTheme);
     dropdownContent.appendChild(durpydooTheme);
     dropdown.appendChild(dropdownButton);
