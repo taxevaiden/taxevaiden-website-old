@@ -43,14 +43,13 @@
     margin-right: auto;
     
     max-width: 586px;
-    min-height: 50px;
+    min-height: 44px;
+    max-height: 50px;
 }
 
 .topbar p {
     float: right;
     margin-right: 5px;
-    
-    
 }
 
 .topbar-a-text {
@@ -60,6 +59,7 @@
 .topbar a {
     float: left;
     padding: 0px 15px;
+    max-height: 50px;
     background-color: rgba(0, 0, 0, 0);
 
     -webkit-touch-callout: none;
