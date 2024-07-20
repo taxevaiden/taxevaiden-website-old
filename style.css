@@ -101,7 +101,7 @@
     --background-position: left center;
     --background-attachment: fixed;
     --background-size: cover;
-    --background-repeat: repeat;
+    --background-repeat: none;
 
     --shadow-x: 0px;
     --shadow-y: 10px;
@@ -175,7 +175,7 @@
     --background-position: right center;
     --background-attachment: fixed;
     --background-size: cover;
-    --background-repeat: repeat;
+    --background-repeat: none;
 
     --shadow-x: 0px;
     --shadow-y: 5px;
