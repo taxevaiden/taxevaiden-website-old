@@ -40,8 +40,8 @@ var createThemeSwitcher = function ()
     dropdown.className = "dropdown";
     dropdown.style = `
     float: right;
-    margin-top: calc(((50px - var(--div-outline-width)) - (25px + var(--div-outline-width) * 2)) / 2);
-    margin-right: calc(((50px - var(--div-outline-width)) - (25px + var(--div-outline-width) * 2)) / 2);
+    margin-top: calc(((44px - var(--div-outline-width)) - (25px + var(--div-outline-width) * 2)) / 2);
+    margin-right: calc(((44px - var(--div-outline-width)) - (25px + var(--div-outline-width) * 2)) / 2);
     `
 
     const dropdownButton = document.createElement("button");
