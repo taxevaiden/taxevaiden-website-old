@@ -394,8 +394,6 @@ html {
 
 /*html comment box styling*/
 #HCB_comment_box {
-    
-    color: var(--text-color);
     background-color: var(--div-background-color);
     border-style: var(--div-outline-style);
     border-color: var(--div-outline-color);
@@ -419,8 +417,9 @@ html {
 
 #HCB_comment_box textarea,
 #HCB_comment_box input.text,
-#HCB_comment_box .btn {
-    font-family: var(--font);
+#HCB_comment_box #hcb_form .btn
+#HCB_comment_box #HCB_comment_form_box .btn {
+    
     background-color: var(--div-background-color);
     border-style: var(--div-outline-style);
     border-color: var(--div-outline-color);
@@ -509,5 +508,6 @@ html {
 
 /*fonty monty*/
 #HCB_comment_box input, #HCB_comment_box input.btn, #HCB_comment_box select, #HCB_comment_box textarea {
+    color: var(--text-color);
     font-family: var(--font), sans-serif !important;
 }
