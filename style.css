@@ -29,6 +29,8 @@
     --background-size: 64px 64px;
     --background-repeat: repeat;
 
+    --rss-icon: url("images/icons/rss.png");
+
     --shadow-x: 0px;
     --shadow-y: 5px;
     --shadow-color: rgba(0, 0, 0, 0.5);
@@ -65,6 +67,8 @@
     --background-attachment: fixed;
     --background-size: 64px 64px;
     --background-repeat: repeat;
+
+    --rss-icon: url("images/icons/rss.png");
 
     --shadow-x: 0px;
     --shadow-y: 5px;
@@ -103,6 +107,8 @@
     --background-size: cover;
     --background-repeat: none;
 
+    --rss-icon: url("images/icons/rss.png");
+
     --shadow-x: 0px;
     --shadow-y: 10px;
     --shadow-color: rgba(0, 0, 0, 0.5);
@@ -140,13 +146,15 @@
     --background-size: 512px 10px;
     --background-repeat: repeat;
 
+    --rss-icon: url("images/icons/rss-terminal.png");
+
     --shadow-x: 0px;
     --shadow-y: 0px;
     --shadow-color: rgba(0, 0, 0, 0.5);
 
     --invert-decor: 100%;
     --invert-background: 0%;
-    --invert-icon: 100%;
+    --invert-icon: 0%;
 
     --decor-display: none;
     --icon-display: none;
@@ -176,6 +184,8 @@
     --background-attachment: fixed;
     --background-size: cover;
     --background-repeat: none;
+
+    --rss-icon: url("images/icons/rss-durpydoo.png");
 
     --shadow-x: 0px;
     --shadow-y: 5px;
@@ -329,6 +339,12 @@ html {
 .rss-icon {
     width: 64px;
     height: 64px;
+
+    background-image: var(--rss-icon);
+    background-size: 64px 64px;
+    display: block;
+
+    margin-bottom: 10px;
 
     filter: invert(var(--invert-icon));
 }
