@@ -1,7 +1,7 @@
 # aiden's website
 
-**please do not fork this i do not wan't someone to copy my work!!**
+**you can fork this**
 
-anyway this is just a website i made for fun
-kinda pointless
-at least you get to know more about me?
+i had nothing to do so i made a website<br>uhh it has like terrible code all over the place so *don't* expect the best code you've ever seen
+
+trust me my code is terrible
