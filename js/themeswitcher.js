@@ -78,6 +78,14 @@ var createThemeSwitcher = function ()
         setCookie("theme", "legacy", 99999999);
     }
 
+    const matchaTheme = document.createElement("a");
+    matchaTheme.innerText = "matcha";
+    matchaTheme.onclick = function ()
+    {
+        document.documentElement.className = "matcha";
+        setCookie("theme", "matcha", 99999999);
+    }
+
     const terminalTheme = document.createElement("a");
     terminalTheme.innerText = "terminal";
     terminalTheme.onclick = function ()
@@ -98,6 +106,7 @@ var createThemeSwitcher = function ()
     dropdownContent.appendChild(lightTheme);
     dropdownContent.appendChild(darkTheme);
     dropdownContent.appendChild(legacyTheme);
+    dropdownContent.appendChild(matchaTheme);
     dropdownContent.appendChild(terminalTheme);
     dropdownContent.appendChild(durpydooTheme);
     dropdown.appendChild(dropdownButton);

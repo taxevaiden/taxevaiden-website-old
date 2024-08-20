@@ -130,6 +130,45 @@
     --font: 'Indie Flower';
 }
 
+.matcha {
+    --div-outline-style: solid;
+    --div-outline-color: rgb(76, 116, 82);
+    --div-outline-width: 2px;
+
+    --div-background-color: rgb(104, 155, 111);
+
+    --background-image: none;
+    --background-color: rgb(43, 56, 45);
+
+    /* don't change these settings UNLESS you have a background image*/
+    --background-position: center;
+    --background-attachment: fixed;
+    --background-size: 64px 64px;
+    --background-repeat: repeat;
+
+    --rss-icon: url("images/icons/rss-matcha.png");
+
+    --shadow-x: 0px;
+    --shadow-y: 5px;
+    --shadow-color: rgba(0, 0, 0, 0.5);
+
+    --invert-decor: 0%;
+    --invert-background: 0%;
+    --invert-icon: 0%;
+
+    --decor-display: none;
+    --icon-display: none;
+
+    --text-color: rgb(238, 255, 239);
+    --text-a-color: rgb(150, 230, 161);
+
+    --hover-color: rgb(78, 126, 85);
+    --disabled: rgb(37, 63, 41);
+    --disabled-hover: rgb(23, 43, 26);
+
+    --font: 'Pixelify Sans';
+}
+
 .terminal {
     --div-outline-style: solid;
     --div-outline-color: rgb(96, 207, 92);
