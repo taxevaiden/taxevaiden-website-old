@@ -109,7 +109,7 @@ var createThemeSwitcher = function ()
 
     
     const greenTheme = document.createElement("a");
-    greenTheme.innerText = "DurpyDoo";
+    greenTheme.innerText = "green";
     greenTheme.onclick = function ()
     {
     document.documentElement.className = "green";
