@@ -107,16 +107,15 @@ var createThemeSwitcher = function ()
         setCookie("theme", "durpydoo", 99999999);
     }
 
-    if (getCookie("greenUnlocked", false))
+    
+    const greenTheme = document.createElement("a");
+    greenTheme.innerText = "DurpyDoo";
+    greenTheme.onclick = function ()
     {
-        const greenTheme = document.createElement("a");
-        greenTheme.innerText = "DurpyDoo";
-        greenTheme.onclick = function ()
-        {
-            document.documentElement.className = "green";
-            setCookie("theme", "green", 99999999);
-        }
+    document.documentElement.className = "green";
+    setCookie("theme", "green", 99999999);
     }
+    
 
 
     dropdownContent.appendChild(lightTheme);
