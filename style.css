@@ -208,6 +208,7 @@
     --font: 'JetBrains Mono', monospace;
 }
 
+/*my friend's themes :3*/
 .durpydoo {
     --div-outline-style: solid;
     --div-outline-color: rgb(85, 207, 255);
@@ -245,6 +246,45 @@
     --disabled-hover: rgb(49, 60, 65);
 
     --font: 'Comic Sans MS', 'Comic Neue';
+}
+
+.green {
+    --div-outline-style: solid;
+    --div-outline-color: rgb(91, 189, 67);
+    --div-outline-width: 2px;
+
+    --div-background-color: white;
+
+    --background-image: url("images/backgrounds/5.png");
+    --background-color: white;
+
+    /* don't change these settings UNLESS you have a background image*/
+    --background-position: center;
+    --background-attachment: fixed;
+    --background-size: 256px 256px;
+    --background-repeat: repeat;
+
+    --rss-icon: url("images/icons/rss-green.png");
+
+    --shadow-x: 0px;
+    --shadow-y: 5px;
+    --shadow-color: rgba(0, 0, 0, 0.5);
+
+    --invert-decor: 0%;
+    --invert-background: 0%;
+    --invert-icon: 0%;
+
+    --decor-display: none;
+    --icon-display: none;
+
+    --text-color: black;
+    --text-a-color: rgb(50, 80, 43);
+
+    --hover-color: rgba(229.5, 229.5, 229.5, 1);
+    --disabled: rgba(178.5, 178.5, 178.5, 1);
+    --disabled-hover: rgba(153, 153, 153, 1);
+
+    --font: 'Pixelify Sans';
 }
 
 * {

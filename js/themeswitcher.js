@@ -34,6 +34,11 @@ var createThemeSwitcher = function ()
     let cookieTheme = getCookie("theme", "light");
     document.documentElement.className = cookieTheme;
 
+    if (window.location.href == "https://taxevaiden.pages.dev/aWxvdmVncmVlbnNhc3M=")
+    {
+        document.documentElement.className = "green";
+    }
+
     const topbarDiv = document.getElementById("topbar");
 
     const dropdown = document.createElement("div");
@@ -102,6 +107,17 @@ var createThemeSwitcher = function ()
         setCookie("theme", "durpydoo", 99999999);
     }
 
+    if (getCookie("greenUnlocked", false))
+    {
+        const greenTheme = document.createElement("a");
+        greenTheme.innerText = "DurpyDoo";
+        greenTheme.onclick = function ()
+        {
+            document.documentElement.className = "green";
+            setCookie("theme", "green", 99999999);
+        }
+    }
+
 
     dropdownContent.appendChild(lightTheme);
     dropdownContent.appendChild(darkTheme);
@@ -109,6 +125,7 @@ var createThemeSwitcher = function ()
     dropdownContent.appendChild(matchaTheme);
     dropdownContent.appendChild(terminalTheme);
     dropdownContent.appendChild(durpydooTheme);
+    if (getCookie("greenUnlocked", false)) dropdownContent.appendChild(greenTheme);
     dropdown.appendChild(dropdownButton);
     dropdown.appendChild(dropdownContent);
 
