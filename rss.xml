@@ -35,33 +35,40 @@
     <pubDate>Thu, 20 Jun 2024 00:00:00 EST</pubDate>
   </item>
 
-  <item>
-    <title>hosting your own website</title>
-    <link>https://taxevaiden.pages.dev/posts/how-to-host-your-own-website</link>
-    <description>guide on how to host your own website</description>
-    <pubDate>Sun, 23 Jun 2024 00:00:00 EST</pubDate>
-  </item>
+    <item>
+        <title>hosting your own website</title>
+        <link>https://taxevaiden.pages.dev/posts/how-to-host-your-own-website</link>
+        <description>guide on how to host your own website</description>
+        <pubDate>Sun, 23 Jun 2024 00:00:00 EST</pubDate>
+    </item>
 
-  <item>
-    <title>i went on vacation</title>
-    <link>https://taxevaiden.pages.dev/posts/vacation</link>
-    <description>my pronouns are no longer USA</description>
-    <pubDate>Sat, 6 Jul 2024 00:00:00 EST</pubDate>
-  </item>
+    <item>
+        <title>i went on vacation</title>
+        <link>https://taxevaiden.pages.dev/posts/vacation</link>
+        <description>my pronouns are no longer USA</description>
+        <pubDate>Sat, 6 Jul 2024 00:00:00 EST</pubDate>
+    </item>
 
-  <item>
-    <title>themes are now on the site!!</title>
-    <link>https://taxevaiden.pages.dev/posts/themes</link>
-    <description>you can now make the website look like whatever you please,, kind of</description>
-    <pubDate>Sat, 6 Jul 2024 00:00:00 EST</pubDate>
-  </item>
+    <item>
+        <title>themes are now on the site!!</title>
+        <link>https://taxevaiden.pages.dev/posts/themes</link>
+        <description>you can now make the website look like whatever you please,, kind of</description>
+        <pubDate>Sat, 6 Jul 2024 00:00:00 EST</pubDate>
+    </item>
 
-  <item>
-    <title>catto boi</title>
-    <link>https://taxevaiden.pages.dev/posts/catto-boi</link>
-    <description>maybe the real catto boi was the friends we made along the way..</description>
-    <pubDate>Sun, 18 Aug 2024 00:00:00 EST</pubDate>
-  </item>
+    <item>
+        <title>catto boi</title>
+        <link>https://taxevaiden.pages.dev/posts/catto-boi</link>
+        <description>maybe the real catto boi was the friends we made along the way..</description>
+        <pubDate>Sun, 18 Aug 2024 00:00:00 EST</pubDate>
+    </item>
+    
+   <item>
+        <title>switching to neovim!!</title>
+        <link>https://taxevaiden.pages.dev/posts/nvim.html</link>
+        <description>my brain hurts :(</description>
+        <pubDate>Thu, 29 Aug 2024 00:00:00 EST</pubDate>
+    </item> 
 
 </channel>
 

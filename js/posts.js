@@ -27,6 +27,7 @@ var postSummary = function (link, title, date)
 
 var addPosts = function ()
 {
+    postSummary("posts/nvim.html", "switching to neovim!!", "8/29/2024");
     postSummary("posts/catto-boi.html", "catto boi", "8/18/2024");
     postSummary("posts/themes.html", "themes are now on the site!", "7/19/2024");
     postSummary("posts/vacation.html", "i went on vacation", "7/6/2024");
