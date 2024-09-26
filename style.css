@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); /* indie flower, the og,,*/
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
@@ -11,6 +12,18 @@
 @import url('css/menu.css');
 @import url('css/status.css');
 @import url('css/dropdown.css');
+
+/* global variables*/
+:root {
+    --h1-size: 32px;
+    --h2-size: 24px;
+    --h3-size: 16px;
+    --h4-size: 16px;
+    --h5-size: 8px;
+    --h6-size: 4px;
+
+    --p-size: 16px;
+}
 
 /* themes!! */
 .light {
@@ -49,7 +62,7 @@
     --disabled: rgba(178.5, 178.5, 178.5, 1);
     --disabled-hover: rgba(153, 153, 153, 1);
 
-    --font: 'Pixelify Sans';
+    --font: 'MS PGothic', Lato;
 }
 
 .dark {
@@ -88,7 +101,7 @@
     --disabled: rgb(17, 17, 17);
     --disabled-hover: rgb(10, 10, 10);
 
-    --font: 'Pixelify Sans';
+    --font: 'MS PGothic', Lato;
 }
 
 .legacy {
@@ -132,13 +145,13 @@
 
 .matcha {
     --div-outline-style: solid;
-    --div-outline-color: rgb(76, 116, 82);
+    --div-outline-color: rgb(151, 182, 155);
     --div-outline-width: 2px;
 
-    --div-background-color: rgb(104, 155, 111);
+    --div-background-color: rgb(86, 105, 87);
 
     --background-image: none;
-    --background-color: rgb(43, 56, 45);
+    --background-color: rgb(32, 39, 33);
 
     /* don't change these settings UNLESS you have a background image*/
     --background-position: center;
@@ -160,13 +173,13 @@
     --icon-display: none;
 
     --text-color: rgb(238, 255, 239);
-    --text-a-color: rgb(150, 230, 161);
+    --text-a-color: rgb(189, 243, 196);
 
-    --hover-color: rgb(78, 126, 85);
-    --disabled: rgb(37, 63, 41);
-    --disabled-hover: rgb(23, 43, 26);
+    --hover-color: rgb(94, 129, 99);
+    --disabled: rgb(48, 66, 50);
+    --disabled-hover: rgb(33, 46, 35);
 
-    --font: 'Pixelify Sans';
+    --font: 'MS PGothic', Lato;
 }
 
 .terminal {
@@ -284,7 +297,7 @@
     --disabled: rgba(178.5, 178.5, 178.5, 1);
     --disabled-hover: rgba(153, 153, 153, 1);
 
-    --font: 'Pixelify Sans';
+    --font: 'MS PGothic', Lato;
 }
 
 * {
@@ -297,21 +310,21 @@ pre {
 
 h1 {
     font-weight: 500;
-    font-size: x-large;
+    font-size: var(--h1-size);
 }
 
 h2 {
     font-weight: 500;
-    font-size: larger;
+    font-size: var(--h2-size);
 }
 
 h3 {
     font-weight: 500;
-    font-size: large;
+    font-size: var(--h3-size);
 }
 
 p, li {
-    font-size: small;
+    font-size: var(--p-size);
 }
 
 a {

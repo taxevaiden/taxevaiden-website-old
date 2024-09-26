@@ -15,6 +15,7 @@
 
     color: var(--text-color);
     font-family: var(--font), sans-serif;
+    font-size: var(--p-size);
     font-weight: 400;
 }
 
@@ -40,7 +41,7 @@
     width: calc(100% - 10px);
     display: block;
 
-    font-size: small;
+    font-size: var(--p-size);
 
     border-bottom: var(--div-outline-width) var(--div-outline-style) var(--div-outline-color);
 }

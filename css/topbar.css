@@ -14,7 +14,6 @@
     padding: 0px 10px;
 
     display: var(--icon-display);
-    vertical-align: baseline;
     filter: invert(var(--invert-icon));
 
     -webkit-touch-callout: none;
@@ -58,9 +57,13 @@
 
 .topbar a {
     float: left;
-    padding: 0px 15px;
+    padding: 0px 8px;
     max-height: 50px;
     background-color: rgba(0, 0, 0, 0);
+
+    display: inline-block;
+
+    text-align: center;
 
     -webkit-touch-callout: none;
     -webkit-user-select: none;
