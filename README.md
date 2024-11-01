@@ -1,7 +1,7 @@
 # aiden's website
 
-**you can fork this**
+# THIS IS NOT MY CURRENT WEBSITE'S REPO!!
+if you are looking for the current repo, please go [here.](https://github.com/taxevaiden/taxevaiden-website)
 
-i had nothing to do so i made a website<br>uhh it has like terrible code all over the place so *don't* expect the best code you've ever seen
-
-trust me my code is terrible
+you can fork this, i don't care<br>
+honestly would feel bad cause my code was terrible LOL
